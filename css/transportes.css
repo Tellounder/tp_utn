@@ -1,0 +1,400 @@
+/* font-family: 'Open Sans', sans-serif; */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #333;
+
+
+}
+
+
+
+
+header {
+    background-color: #000000;
+    padding: 1px 0;
+}
+
+header .logo img{
+    display: flex;
+    margin: auto;
+    height: 280px ;
+    width: 300px;
+}
+
+header h1 {
+   
+        color: rgba(206, 124, 124, 0);
+        text-decoration: underline 1px;
+        font-size: 1px;
+        font-style: italic;
+
+
+
+}
+
+nav {
+    background-color: #5d0c0c;
+    border-color: #5d0c0c;
+
+
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    /* text-align: right; */
+    display: flex;
+}
+
+nav ul li {
+    /* flex-grow: 1; */
+    justify-content: right;
+    padding: 1px;
+    margin: 10px;
+    padding: 1px;
+
+}
+
+nav ul li a {
+    text-transform: none;
+    text-decoration: double;
+    color: white;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:hover {
+    font-family: arial ;
+    background-color: rgba(255, 251, 0, 0.818);
+    transition-duration: 1s;
+    max-width: 100%;
+
+    color: #000000;
+    text-shadow: #fdfdfd;
+    text-decoration:double;
+    border-radius: 5px ;
+
+}
+
+nav ul li a.activo {
+    background-color: #c75402;
+    border-radius: 10px;
+
+    padding-bottom: auto;
+
+}
+
+
+footer {
+    background-color: #ccc;
+    padding: 48px;
+    text-align: center;
+    clear: both;
+    margin-top: 30px;
+
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+    background: line;
+
+
+}
+
+
+
+h2 {
+    color: #ff9d00;
+    font-weight: 400;
+
+}
+.contenido  .almacen img {
+    max-width:%;
+    padding-top: 5px;
+}
+
+.contenido img {
+    max-width: 100%;
+    padding-top: 5px;
+}
+
+.columnas {
+    display: flex;
+
+}
+
+.bienvenidos {
+    width: 75%;
+    color: white;
+    /* background-color: rgba(248, 248, 248, 0); */
+    /* padding-right: 30px; */
+
+}
+
+.testimonios {
+    width: 25%;
+
+}
+
+.bienvenidos p {
+    font-size: 24px;
+
+}
+
+.testimonio {
+    background-color: rgba(253, 253, 253, 0.845);
+    padding: 16px;
+
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    /* background-color: yellow; */
+    display: block;
+
+}
+
+.testimonio .autor {
+    font-size: 12px;
+    /* background-color: rgba(255, 217, 0, 0.916); */
+    text-align: center;
+    display: block;
+    margin: 16px 0;
+
+}
+
+/* estilo para la seccion nosotros */
+
+.historia p {
+    font-size: 12px;
+
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    width: 18%;
+    /* background-color: yellow; */
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.persona img {
+    border-radius: 50%;
+    width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px;
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    color: #2e64a1;
+    font-weight: normal;
+}
+
+.persona h5 {
+    font-size: 14px;
+}
+
+.persona h6 {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.persona p {
+    font-size: 12px;
+    color-scheme: #333;
+    text-align: left;
+}
+
+/* fin de nosotros */
+
+
+/* icicio contacto */
+
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+
+}
+
+.datos {
+    /* background-color: orange; */
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+
+    font-size: 13px;
+    list-style: none;
+}
+
+.formulario p {
+    display: flex;
+    /* block si lo ponemos esta opcion estan uno al lado del otro*/
+}
+
+.formulario p label {
+    /* background-color: yellow; */
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    border: 1px solid rgb(121, 121, 121);
+    padding: 7px;
+    font-size: 14px;
+
+
+}
+
+.formulario p textarea {
+    resize: none;
+    height: 150px;
+}
+
+.arriba {
+    align-items: start;
+    /* background-color: orange; */
+}
+
+.formulario input[ type="submit"] {
+    background-color: #4c76a5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    width: auto;
+    padding: 6px 20px;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+    transition: all 0.5 ease;
+}
+
+.formulario input[ type="submit"]:hover {
+
+    background-color: #2e64a1;
+
+}
+
+@media screen and (max-width:551px) {
+ body{ background-color: rgb(230, 230, 237);}
+    .columnas{
+        flex-direction: column;
+    }
+
+    .bienvenidos,
+    .testimonios{
+        width: 100%;
+        background-color: #333;
+    }
+
+    .holder{
+        padding: 0 16px;
+        background-color: #333;
+        color: white;
+    }
+
+    .testimonio{
+        max-width: 40%;
+        margin: 0 auto;
+        background-color: #333;
+    }
+    .testimonio p{
+        color: white;
+    }
+
+    .testimonios .cita{
+        background-color: #333;
+    }
+     
+
+    .testimonios .autor{
+        background-color: #333;
+    }
+
+    .bienvenidos p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .personas{
+        flex-wrap: wrap;
+    }
+
+    .persona{
+        width: 30%;
+        width: 47%;
+        margin-bottom: 15px;
+    }
+
+    .contacto{
+        flex-direction: column-reverse;
+    }
+
+    .formulario p{
+        display: block;
+    }
+
+    .formulario p input,
+    .formulario p textarea{
+        width: 95%;
+    }
+    
+    header .holder{
+        display: flex;
+        justify-content: center;
+    }
+
+    header .logo img{
+        
+            display: flex;
+            margin: auto;
+            height: 150px;
+            width: 150px;
+
+    }
+
+    header h1{
+        bottom: 20px;
+    }
+
+    nav ul li {
+        flex-grow: 1;
+        justify-content: right;
+        padding: px;
+        margin: -1px;
+        padding: 1px;
+        font-size: 12px;}
+
+    nav ul.holder{
+        flex-direction: column;
+        background-color:  #5d0c0c;
+    }
+}
