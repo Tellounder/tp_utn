@@ -1,9 +1,19 @@
 /* font-family: 'Open Sans', sans-serif; */
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #333;
+    
+        height: 800px;
+        background-image: url("https://img.freepik.com/foto-gratis/vista-superior-placa-oblonga-pastel-requeson-durazno-alrededor-sobre-superficie-madera_141793-10096.jpg?w=360&t=st=1683285285~exp=1683285885~hmac=5beac91a16a5ef18d7473f79df09800ffb43be16e3770e726f728e0833b14465");
+        background-size: cover;
+        background-size: 89rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-color: #333;
 
+}
 
+main{
+    /* background-color: #2e64a1; */
 }
 
 
@@ -90,11 +100,12 @@ nav ul li a.activo {
 
 
 footer {
-    background-color: #ccc;
+    background-color: #000000;
     padding: 48px;
     text-align: center;
     clear: both;
     margin-top: 30px;
+    color: white;
 
 }
 
@@ -109,13 +120,21 @@ footer {
 
 
 h2 {
-    color: #ff9d00;
+    color: #ffffff;
     font-weight: 400;
+    background-color: #ff55002a;
 
 }
 .contenido  .almacen img {
-    max-width:%;
+    max-width:80%;
     padding-top: 5px;
+} h1 {
+   
+    color: #f6ff00;
+    font-style: italic;
+    /* max-width:%; */
+    padding-top: 5px;
+    text-align: center;
 }
 
 .contenido img {
@@ -148,8 +167,9 @@ h2 {
 }
 
 .testimonio {
-    background-color: rgba(253, 253, 253, 0.845);
+    background-color: rgba(255, 255, 255, 0.179);
     padding: 16px;
+    color: white;
 
 }
 
@@ -174,7 +194,8 @@ h2 {
 /* estilo para la seccion nosotros */
 
 .historia p {
-    font-size: 12px;
+    font-size: 18px;
+    color: #ffffff;
 
 }
 
@@ -187,38 +208,41 @@ h2 {
     width: 18%;
     /* background-color: yellow; */
     border: 1px solid;
-    border-radius: 5px;
+    border-radius: 35px;
     text-align: center;
     padding: 10px 10px;
     box-sizing: border-box;
+    background-color: #5d0c0c;
 }
 
 .persona img {
     border-radius: 50%;
-    width: 60%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
     margin-bottom: 16px;
+    background-color: #c75402;
+    
 }
 
 .persona h5,
 .persona h6 {
     margin: 0;
-    color: #2e64a1;
-    font-weight: normal;
+    color: #ffffff;
+    font-weight:bold;
 }
 
 .persona h5 {
-    font-size: 14px;
+    font-size: 16+5px;
 }
 
 .persona h6 {
     font-style: italic;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .persona p {
     font-size: 12px;
-    color-scheme: #333;
+    color: #ffffff;
     text-align: left;
 }
 
@@ -229,7 +253,8 @@ h2 {
 
 .contacto {
     display: flex;
-    gap: 24px;
+    gap: 14px;
+    color: white;
 }
 
 .contacto div {
@@ -287,7 +312,7 @@ h2 {
 }
 
 .formulario input[ type="submit"] {
-    background-color: #4c76a5;
+    background-color: #ff1500;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     color: white;
     width: auto;
@@ -300,39 +325,49 @@ h2 {
 
 .formulario input[ type="submit"]:hover {
 
-    background-color: #2e64a1;
+    background-color: #e73909;
+
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    
 
 }
 
 @media screen and (max-width:551px) {
- body{ background-color: rgb(230, 230, 237);}
+ body{ background-color: rgba(230, 230, 237, 0.478);}
     .columnas{
         flex-direction: column;
+        background-image: url(https://img.freepik.com/foto-gratis/vista-superior-placa-oblonga-pastel-requeson-durazno-alrededor-sobre-superficie-madera_141793-10096.jpg?w=360&t=st=1683285285~exp=1683285885~hmac=5beac91a16a5ef18d7473f79df09800ffb43be16e3770e726f728e0833b);
     }
 
     .bienvenidos,
     .testimonios{
         width: 100%;
-        background-color: #333;
+        background-color: #c2c9481c;
     }
 
     .holder{
         padding: 0 16px;
-        background-color: #333;
+        /* background-color: #33333370; */
         color: white;
     }
 
     .testimonio{
         max-width: 40%;
         margin: 0 auto;
-        background-color: #333;
+        /* background-color: #33333328; */
     }
     .testimonio p{
         color: white;
     }
 
     .testimonios .cita{
-        background-color: #333;
+        /* background-color: #33333300; */
     }
      
 
@@ -350,9 +385,17 @@ h2 {
     }
 
     .persona{
-        width: 30%;
-        width: 47%;
+        /* width: 30%;
+        width: 47%; */
         margin-bottom: 15px;
+        width: 45%;
+    /* background-color: yellow; */
+    border: 1px solid;
+    border-radius: 35px;
+    text-align: center;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background-color: #5d0c0c
     }
 
     .contacto{
